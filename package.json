@@ -1,0 +1,13 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "pre-entrega para el programa Talento Tech",
+  "license": "ISC",
+  "author": "Santiago Cugliari",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
