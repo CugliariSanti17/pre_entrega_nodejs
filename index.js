@@ -36,7 +36,7 @@ if(sliceProcess[0].toUpperCase() === 'GET' && sliceProcess[1].toLowerCase() === 
     }else{
         console.log(`Instrucción no identificada. Faltan argumentos`)
     }
-}else if(sliceProcess[0].toUpperCase() === 'DELETE' && sliceProcess[1].toLowerCase().includes('products/')){
+}else if(sliceProcess[0].toUpperCase() === 'DELETE' && sliceProcess[1].toLowerCase().includes('products/') && sliceProcess.length === 2){
     try {
         fetch(`https://fakestoreapi.com/${sliceProcess[1]}`, {
             method: 'DELETE'
